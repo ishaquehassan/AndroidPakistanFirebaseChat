@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void signUpUser(String email,String password){
-        mProgressDialog.show();
+        mProgressDialog.show();https://github.com/ishaquehassan/AndroidPakistanFirebaseChat.git
 
         mFirebaseAuth.createUserWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
